@@ -4,7 +4,7 @@ const rateone = document.getElementById('rate-1');
 const ratetwo = document.getElementById('rate-2');
 
 // Fetch the data
-function calculate(){
+function fetchCalculate(){
 const selected1value  = currencyone.value; 
 const selected2value = currencytwo.value; 
 
@@ -23,4 +23,4 @@ ratetwo.addEventListener('input', calculate);
 }
 
 //Call functions
-calculate();
+fetchcalculate();
