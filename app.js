@@ -22,5 +22,5 @@ currencytwo.addEventListener('change', calculate);
 ratetwo.addEventListener('input', calculate);
 }
 
-//Call functions
-fetchcalculate();
+//Call function
+fetchCalculate();
